@@ -1,0 +1,26 @@
+.chatHeaderBox{
+    display: flex;
+    padding:20px;
+    align-items:center;
+    border-bottom:1px solid lightGray
+}
+
+.chatInfoOFUser{
+    flex:1;
+    padding-left: 20px;
+}
+
+.chatInfoOFUser > h3 {
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.chatInfoOFUser > p {
+    color: gray;
+}
+
+.chatBoxRightHeader{
+    display: flex;
+    justify-content: space-between;
+    min-width:5vw;
+}

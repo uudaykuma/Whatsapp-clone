@@ -1,3 +1,5 @@
 .chatbox-container{
     flex: 0.70;
+    display: flex;
+    flex-direction: column;
 }

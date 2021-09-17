@@ -1,0 +1,27 @@
+.chat-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  border-top: 1px solid lightGray;
+  gap: 20px;
+  padding: 20px;
+}
+.chat-inputs > form {
+  flex: 1;
+  display: flex;
+}
+.chat-inputs > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.chat-inputs > form > button{
+    border:none;
+    outline: none;
+    text-align: center;
+    color: #06d755 !important;
+    display:none;
+}
