@@ -5,7 +5,7 @@ import SidebarHeader from './SidebarHeader'
 import SidebarSearch from './SidebarSearch';
 
 const Sidebar = () => {
-    const [allContact,setAllContact] = React.useState([])
+    // const [allContact,setAllContact] = React.useState([])
 
     React.useEffect(() => {
         // db.collection('rooms').onSnapshot(snap => (
