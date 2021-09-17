@@ -1,0 +1,33 @@
+.single-user-chat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.single-user-chat:hover {
+  background-color: gainsboro;
+}
+
+.chat-info {
+  margin-left: 15px;
+}
+.chat-info > h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.boxmOdal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.input-new-username {
+  height: 30px;
+  outline: none;
+  width: 300px;
+  padding-left: 20px;
+}

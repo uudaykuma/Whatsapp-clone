@@ -1,0 +1,19 @@
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+
+.headerOptions {
+  display: flex;
+  min-width: 10vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  color: black !important;
+  font-size: 25px !important;
+  font-weight: 300 !important;
+}

@@ -1,0 +1,11 @@
+.chat-container {
+  flex: 1;
+  background-color: white;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #394045;
+}

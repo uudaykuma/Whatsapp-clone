@@ -1,0 +1,26 @@
+.sidebar-search {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+.serachBox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  height:20px
+}
+.serachBox > .MuiSvgIcon-root {
+    color: #444 !important;
+}
+
+.inputBox{
+    border:none;
+    margin-left: 20px;
+    padding-left: 30px;
+    outline: none;
+    width: 100%;
+}
